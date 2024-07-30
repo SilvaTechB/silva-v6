@@ -7,7 +7,7 @@ import path from 'path'
 import { fileURLToPath } from 'url';
 
 figlet(
-  'Lazack-md-2',
+  'silva-v6',
   {
     font: 'Ghost',
     horizontalLayout: 'default',
@@ -23,7 +23,7 @@ figlet(
 )
 
 figlet(
-  'Biscuit Whatsapp Bot',
+  'horny Whatsapp Bot',
   {
     horizontalLayout: 'default',
     verticalLayout: 'default',
@@ -46,7 +46,7 @@ const __dirname = path.dirname(__filename);
 app.use(express.static(path.join(__dirname, 'media')));
 
 app.get('/', (req, res) => {
-  res.redirect('/lazack.html');
+  res.redirect('/assets/silva.html');
 });
 
 app.listen(port, () => {
@@ -121,7 +121,7 @@ start('lazack.js')
 
 process.on('unhandledRejection', () => {
   console.error(chalk.red(`Unhandled promise rejection. Bot will restart...`))
-  start('lazack.js')
+  start('silva.js')
 })
 
 process.on('exit', code => {
