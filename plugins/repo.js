@@ -11,7 +11,7 @@ if (response.status === 200) {
 const repoData = response.data;
 const formattedInfo = `
 🍑🍑🆂🅸🅻🆅🅰 🅱🅾🆃🍆🍆
-*This Project is Whatsapp Bot Created By  Silva  Using Javascript.\nFrom This bot Can get Fast and Best\nWhatsapp Bot Expirience 💗*
+*This Project is Whatsapp Bot Created By  Silva  Using Javascript.From This bot Can get Fast and Best Whatsapp Bot Expirience 💗*
 𝖲𝖳𝖠𝖱✨ :: ${repoData.stargazers_count}
 𝖥𝖮𝖱𝖪 🍽️ :: ${repoData.forks_count}
 𝖴𝖱𝖫 👻 :: ${repoData.html_url}
